@@ -62,7 +62,7 @@ class VideoPlayerHandler {
   void triggerVolume() async {
     final volume = await inAppWebViewController?.evaluateJavascript(
         source: "player.getVolume()");
-    vkVideoController?.setVolume(volume);
+    vkVideoController?.setVolume(volume.toDouble());
   }
 
   /// Triggers and retrieves the current playback time from the web view.
