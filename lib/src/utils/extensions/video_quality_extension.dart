@@ -1,4 +1,4 @@
-import 'package:vk_video/vk_video.dart';
+import '../../../rutube_video.dart';
 
 /// Extension on String to convert quality values to VideoResolutionEnum.
 extension VideoQualityExtension on String {

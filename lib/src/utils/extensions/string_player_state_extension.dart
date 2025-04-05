@@ -1,4 +1,4 @@
-import 'package:vk_video/vk_video.dart';
+import '../../../rutube_video.dart';
 
 extension StringPlayerStateExtension on String {
   /// Converts a string to the corresponding PlayerStateEnum value.

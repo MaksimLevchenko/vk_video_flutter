@@ -1,10 +1,10 @@
-name: vk_video
-description: "The vk_video package facilitates VK video playback integration in Flutter apps, supporting the VK Video API for seamless embedding and control."
-version: 1.0.4
-repository: https://github.com/ultra-rony/vk_video
-homepage: https://rony.fun
+name: rutube_video
+# description: "The rutube_video package facilitates Rutube video playback integration in Flutter apps, supporting the Rutube Video API for seamless embedding and control."
+# version: 1.0.4
+# repository: https://github.com/ultra-rony/rutube_video
+# homepage: https://rony.fun
 
-topics: [vk, vk-video, player, video]
+# topics: [rutube, rutube-video, player, video]
 
 environment:
   sdk: ^3.6.0
@@ -20,6 +20,6 @@ dev_dependencies:
     sdk: flutter
   flutter_lints: ^5.0.0
 
-screenshots:
-  - description: The logo of the vk_video package.
-    path: screenshots/logo.png
+# screenshots:
+#   - description: The logo of the rutube_video package.
+#     path: screenshots/logo.png
